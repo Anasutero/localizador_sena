@@ -11,7 +11,7 @@ export const Login = () => {
     const navigation = useNavigation()
 
     function abrirInicial(){
-        navigation.navigate('inicial')
+        navigation.navigate('rotasTab')
     }
 
     return(

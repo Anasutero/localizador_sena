@@ -7,15 +7,9 @@ export const Inicial = () => {
   return (
     <View style={estilos.conteiner}>
 
-      <Cabecalho 
-        titulo="Localizador"
-        subtitulo="2DS-B"
-      />
+      <Cabecalho  titulo="Localizador" />
 
-      <Botao texto="Usuários" />
-      <Botao texto="Sensores" />
-      <Botao texto="Sobre" />
-
+      
     </View>
   );
 }
